@@ -1,0 +1,9 @@
+<div class="card" *ngFor="let shopkeeper of shopkeepers" (click)="navigateToProduct()">
+  <div class="card-header">
+    <h3>{{ shopkeeper.name }}</h3>
+  </div>
+  <div class="card-body">
+    <p>Email: {{ shopkeeper.email }}</p>
+    <!-- Add more shopkeeper information here -->
+  </div>
+</div>
